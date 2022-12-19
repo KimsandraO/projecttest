@@ -1,0 +1,67 @@
+body {
+  background-color: #e5e5f7;
+
+  font-family: Roboto;
+  color: rgb(214, 245, 179);
+  background: rgb(245, 104, 88);
+}
+
+nav {
+  background-color: slategray;
+  padding: 5px;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #088db5;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
+}
+
+ul a:hover {
+  color: #a0c0c9;
+  transition: 0.3s;
+}
+
+p {
+  background-color: rgb(118, 118, 131);
+  border: rgb(221, 212, 212) 3px solid;
+}
+
+label {
+  padding: 10px;
+  display: blocks;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: 1px solid blue;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+form button {
+  width: 30%;
+  padding: 5px;
+  background: #088db5;
+  border: none;
+  color: white;
+  transition: 0.2s;
+}
+
+form button:hover {
+  background: #08b8ee;
+  cursor: pointer;
+}
+
+form button:active {
+  box-shadow: insert 3px 2px 15px -5px #252525;
+  cursor: pointer;
+}
